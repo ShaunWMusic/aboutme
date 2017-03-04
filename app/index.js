@@ -1,5 +1,5 @@
 import 'whatwg-fetch';
-
+// Menu Bar
 function toggleBody() {
   document.getElementById('displayAbout').classList.toggle('visible');
   document.getElementById('displayContact').classList.toggle('visible');

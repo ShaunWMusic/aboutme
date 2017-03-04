@@ -7,15 +7,22 @@
   justify-content: space-between;
 }
 
+.menu {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
 .nav-item {
   display: flex;
+  align-items: flex-end;
 
   @media(max-width: 780px) {
   flex-direction: column;
+  align-items: flex-end;
 }
   &_link {
     margin: 0.5rem;
-    padding-left: 1rem;
+
   }
 }
 
@@ -23,10 +30,6 @@
   @media(max-width: 780px) {
     display: none;
   }
-}
-
-.fa {
-  font-size: 1.5rem;
 }
 
 .mobile {

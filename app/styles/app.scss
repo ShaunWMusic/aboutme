@@ -1,16 +1,21 @@
-$c-navcolor: gray;
-$c-mainfont: rgba(239, 239, 239, 1.0);
-$c-secondary: rgba(50,76,106,.79);
-$c-third: rgba(159,114,100,.16);
-$c-fourth: rgba(159,114,100,.53);
-$c-fifth: rgba(32,8,6,.61);
+//Color Scheme
+$c-navcolor: #808080;
+$c-mainfont: rgba(239, 239, 239, 1);
+$c-secondary: rgba(50, 76, 106, 0.79);
+$c-third: rgba(159, 114, 100, 0.16);
+$c-fourth: rgba(159, 114, 100, 0.53);
+$c-fifth: rgba(32, 8, 6, 0.61);
 $c-boxshadow: rgba(0, 0, 0, 0.4);
-$c-border: rgba(#000,.98);
+$c-border: #000;
 
 
-$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-@import 'font-awesome';
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+// @import 'font-awesome';
+// @import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-light.ttf');
+};
 @import 'box-sizing';
 @import 'top-nav';
 @import 'bottom-nav';
@@ -18,3 +23,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'homepage';
 @import 'modal';
 @import 'sidebar-main';
+@import 'icons';
