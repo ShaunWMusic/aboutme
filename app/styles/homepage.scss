@@ -1,0 +1,50 @@
+.hero {
+
+  &-image {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 65vh;
+  }
+  &-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    color: $c-mainfont;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+  &-item {
+    position: relative;
+    flex-basis: calc(100% / 3);
+    min-width: 25rem;
+    flex-grow: 1;
+  }
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $c-secondary;
+  padding: 1rem;
+  width: 60%;
+  text-align: center;
+  color: $c-mainfont;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem $c-boxshadow;
+
+  &-header {
+    font-size: 1.5rem;
+  }
+}

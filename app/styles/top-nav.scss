@@ -1,0 +1,47 @@
+.top-nav {
+  margin: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  display: flex;
+
+  @media(max-width: 780px) {
+  flex-direction: column;
+}
+  &_link {
+    margin: 0.5rem;
+    padding-left: 1rem;
+  }
+}
+
+.desktop {
+  @media(max-width: 780px) {
+    display: none;
+  }
+}
+
+.fa {
+  font-size: 1.5rem;
+}
+
+.mobile {
+  &:hover {
+    cursor: pointer;
+  }
+  @media(min-width: 780px) {
+    display: none;
+  }
+
+  &-hidden {
+    display: none;
+  }
+}
+
+.visible {
+  display: flex;
+}

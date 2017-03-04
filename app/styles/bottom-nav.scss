@@ -1,0 +1,20 @@
+.bottom-nav {
+  height: 10rem;
+  margin: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  transform: translate(-50%, -50%);
+  background-color: $c-mainfont;
+  color: $c-secondary;
+  text-align: center;
+}

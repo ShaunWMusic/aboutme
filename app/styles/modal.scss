@@ -1,0 +1,32 @@
+.full-page {
+  position: relative;
+  color: $c-navcolor;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: $c-fifth;
+  font-size: 1rem;
+
+  &-visible {
+    display: block;
+  }
+
+}
+
+.fa-times {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%, 50%);
+  &:hover {
+    cursor: pointer;
+  }
+}
